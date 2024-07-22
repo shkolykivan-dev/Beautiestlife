@@ -2975,6 +2975,14 @@ body.hidden {
             &__list-item a span {
                 color: var(--reset-color);
             }
+
+            &__list-item a {
+
+                &::before,
+                &::after {
+                    background: var(--reset-color);
+                }
+            }
         }
 
         &__content {

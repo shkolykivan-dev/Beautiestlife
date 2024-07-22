@@ -6732,6 +6732,9 @@ body.hidden {
   .footer .links__title, .footer .links__list-item a, .footer .links__list-item a span {
     color: var(--reset-color);
   }
+  .footer .links__list-item a::before, .footer .links__list-item a::after {
+    background: var(--reset-color);
+  }
   .footer__content {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 53%;
